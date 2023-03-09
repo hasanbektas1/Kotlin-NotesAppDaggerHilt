@@ -4,13 +4,21 @@ NotesAppDaggerHilt
 
 ## Kullanılan Teknolojiler
 
+- MVVM
 - Dagger-Hilt
 - Room Database
 - RecyclerView
+- Navigation
+- Fragment
+- Scope
+- LiveData
+- Coroutines
+- Suspent Function
 - Search
+- SimpleCallback
 - DataBinding
 - AppIcon
 - Serializable
 - CurrentDate
 
-Bu uygulamamda notlarımızı telefon hafızasına kaydedebilir, silebilir veya güncelleyebiliriz ayrıca listeleme ekranında kategoriye göre filtreleme yapabiliriz.
+Bu uygulamamda notlarımızı telefon hafızasına kaydedebilir, silebilir ve ayrıca listeleme ekranında aramaya göre filtreleme yapabiliriz.
