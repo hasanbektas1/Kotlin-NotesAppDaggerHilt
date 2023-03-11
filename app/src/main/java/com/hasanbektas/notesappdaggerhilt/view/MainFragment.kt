@@ -106,9 +106,7 @@ class MainFragment @Inject constructor(
                     if (it.toString().isNotEmpty()){
                         searchNotes(it.toString())
                     }else{
-                        viewModel.noteList.observe(viewLifecycleOwner) { list ->
-                            noteAdapter.noteList = list.reversed()
-                        }
+                        subscribeToObservers()
                     }
                 }
             }
