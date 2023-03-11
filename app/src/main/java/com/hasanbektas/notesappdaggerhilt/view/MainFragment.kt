@@ -45,7 +45,7 @@ class MainFragment @Inject constructor(
                     val layoutPosition = viewHolder.layoutPosition
                     val selectedNot = noteAdapter.noteList[layoutPosition]
                     viewModel.deleteNot(selectedNot)
-                    Toast.makeText(requireContext(),"Silindi '${selectedNot.title}'", Toast.LENGTH_LONG).show()
+                    Toast.makeText(requireContext(),"silindi '${selectedNot.title}'", Toast.LENGTH_LONG).show()
                 })
                 .setNegativeButton("Hayır", DialogInterface.OnClickListener { dialog, which ->
                     noteAdapter.updateNoteList()
